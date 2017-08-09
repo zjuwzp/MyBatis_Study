@@ -1,0 +1,11 @@
+创建一个简单的mybatis的步骤：
+1、添加mybatis-3.1.1.jar和mysql-connector-java-5.1.7-bin.jar这两个jar包。
+2、创建数据库
+3、添加Mybatis的配置文件conf.xml
+4、定义表所对应的实体类，实体类的属性和表的字段名称一一对应
+5、定义操作表的sql映射文件*.xml,并在在conf.xml文件中注册*.xml文件
+6、编写测试代码：
+  1）加载mybatis的配置文件
+  2）构建sqlSession的工厂
+  3）创建能执行映射文件中sql的sqlSession
+  4）执行
